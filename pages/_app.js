@@ -1,5 +1,8 @@
 import "../styles/globals.css";
+
 import { createTheme, NextUIProvider } from "@nextui-org/react";
+import NavigationBar from "../Components/Navigation/Nav";
+import Footer from "../Components/Footer";
 
 const theme = createTheme({
   type: "dark", // it could be "light" or "dark"
@@ -35,7 +38,9 @@ function MyApp({ Component, pageProps }) {
   return (
     // 2. Use at the root of your app
     <NextUIProvider theme={theme}>
+      <NavigationBar />
       <Component {...pageProps} />
+      <Footer />
     </NextUIProvider>
   );
 }

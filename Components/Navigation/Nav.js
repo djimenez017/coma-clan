@@ -1,5 +1,6 @@
-import { Navbar, Button, Link, Text } from "@nextui-org/react";
+import { Navbar, Text } from "@nextui-org/react";
 import { Layout } from "./Layout.js";
+import Link from "next/link";
 
 export default function App() {
   const navItems = [
