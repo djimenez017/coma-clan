@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Danners",
     "social": [
       "https://www.twitch.tv/danners2772",
@@ -8,5 +7,31 @@
       "https://jimenez.tech/",
       "https://twitter.com/Dann3rs"
     ]
+  },
+  {
+    "name": "JMG1300",
+    "social": [
+      "https://www.twitch.tv/jmg1300",
+      "https://www.instagram.com/jmg1300/",
+      "https://jmg13.com/",
+      "https://twitter.com/Dann3rs",
+      "https://www.youtube.com/jmg1300"
+    ]
+  },
+  {
+    "name": "DangerDuzzIt ",
+    "social": ["https://www.instagram.com/danger.one/"]
+  },
+  {
+    "name": "MORTAL_NEMESIS",
+    "social": [
+      "https://www.twitch.tv/mortal_nemesis",
+      "https://nohemi.help/",
+      "https://www.instagram.com/en_ge/"
+    ]
+  },
+  {
+    "name": "MGM_9006",
+    "social": ["https://www.twitch.tv/mgm_9006"]
   }
 ]

@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-
+import { Container } from "@nextui-org/react";
 import { createTheme, NextUIProvider } from "@nextui-org/react";
 import NavigationBar from "../Components/Navigation/Nav";
 import Footer from "../Components/Footer";
@@ -39,7 +39,9 @@ function MyApp({ Component, pageProps }) {
     // 2. Use at the root of your app
     <NextUIProvider theme={theme}>
       <NavigationBar />
-      <Component {...pageProps} />
+      <Container>
+        <Component {...pageProps} />
+      </Container>
       <Footer />
     </NextUIProvider>
   );
